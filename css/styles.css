@@ -36,16 +36,41 @@ body {
 .address {
   font-style: inherit;
 }
+
+.page-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--alt-title-color);
+  background-color: var(--dark-bg);
+}
+
+.section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
 .logo span {
   color: var(--accent-color);
 }
-/* 
+
 .logo {
   text-decoration: none;
   color: var(--alt-title-color);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
 }
 
 .logo.hero {
