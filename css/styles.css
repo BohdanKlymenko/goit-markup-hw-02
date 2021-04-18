@@ -141,7 +141,6 @@ body {
 }
 
 .projects-item {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   color: var(--main-text-color);
@@ -172,7 +171,6 @@ body {
 }
 
 .map {
-  font-family: Roboto;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
