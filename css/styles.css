@@ -14,6 +14,7 @@
 }
 body {
   font-family: var(--main-font);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -32,9 +33,62 @@ body {
 .list {
   list-style: none;
 }
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
 
-.address {
-  font-style: inherit;
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--second-bg);
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+.btn.hero {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--alt-text-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--alt-text-color);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 .page-title {
@@ -44,9 +98,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--alt-title-color);
-  background-color: var(--dark-bg);
 }
 
 .title {
@@ -67,11 +119,18 @@ body {
   text-transform: uppercase;
 }
 
-.team-title {
+.team-item {
+  text-align: center;
+}
+.team-item-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+}
+
+.team-item-position {
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .projects-title {
@@ -80,8 +139,20 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-. .logo {
-  text-decoration: none;
+
+.projects-item {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-text-color);
+}
+.dark-dg {
+  background-color: var(--dark-bg);
+}
+
+.logo.link {
+  font-family: var(--logo-font);
+  font-weight: bold;
   text-transform: none;
   color: var(--alt-title-color);
   font-size: 26px;
@@ -93,5 +164,24 @@ body {
 }
 
 .logo.hero {
-  color: var(--primary-text-color);
+  color: var(--logo-color);
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+.map {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--alt-text-color);
+}
+
+.address {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
