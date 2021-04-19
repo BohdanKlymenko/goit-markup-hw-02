@@ -158,9 +158,11 @@ body {
   color: var(--alt-title-color);
 }
 
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: var(--alt-title-color);
 }
+
 .logo span {
   color: var(--accent-color);
 }
@@ -169,7 +171,8 @@ body {
   color: var(--logo-color);
 }
 
-.logo-hero:hover {
+.logo-hero:hover,
+.logo-hero:focus {
   color: var(--logo-color);
 }
 
