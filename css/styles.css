@@ -61,7 +61,7 @@ body {
   cursor: pointer;
 }
 
-.btn.hero {
+.btn-hero {
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
@@ -149,20 +149,27 @@ body {
   background-color: var(--dark-bg);
 }
 
-.logo.link {
+.logo {
   font-family: var(--logo-font);
   font-weight: bold;
   text-transform: none;
-  color: var(--alt-title-color);
   font-size: 26px;
   line-height: 1.19;
+  color: var(--alt-title-color);
 }
 
+.logo:hover {
+  color: var(--alt-title-color);
+}
 .logo span {
   color: var(--accent-color);
 }
 
-.logo.hero {
+.logo-hero {
+  color: var(--logo-color);
+}
+
+.logo-hero:hover {
   color: var(--logo-color);
 }
 
